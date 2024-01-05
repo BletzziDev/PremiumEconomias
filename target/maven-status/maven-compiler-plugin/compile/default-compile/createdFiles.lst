@@ -1,0 +1,17 @@
+com\premiumsetups\premiumeconomias\tasks\AutoSaveTask.class
+com\premiumsetups\premiumeconomias\objects\PlayerData.class
+com\premiumsetups\premiumeconomias\data\database\Database.class
+com\premiumsetups\premiumeconomias\listeners\PlayerConnectionListener.class
+com\premiumsetups\premiumeconomias\PremiumEconomias.class
+com\premiumsetups\premiumeconomias\enums\SubCommand.class
+com\premiumsetups\premiumeconomias\hooks\PlaceHolderExpansion.class
+com\premiumsetups\premiumeconomias\tools\ConsoleLogger.class
+com\premiumsetups\premiumeconomias\listeners\PlayerCommandListener$1.class
+com\premiumsetups\premiumeconomias\objects\Currency.class
+com\premiumsetups\premiumeconomias\listeners\PlayerCommandListener.class
+com\premiumsetups\premiumeconomias\cache\CurrenciesCache.class
+com\premiumsetups\premiumeconomias\tools\Text.class
+com\premiumsetups\premiumeconomias\cache\PlayerDataCache.class
+com\premiumsetups\premiumeconomias\data\database\DAO.class
+com\premiumsetups\premiumeconomias\tools\NumberFormat.class
+com\premiumsetups\premiumeconomias\data\file\DataFile.class

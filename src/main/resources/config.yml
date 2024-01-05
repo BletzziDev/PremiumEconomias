@@ -1,0 +1,90 @@
+# ___________                                  .__
+# \_   _____/ ____  ____   ____   ____   _____ |__|____    ______
+#  |    __)__/ ___\/  _ \ /    \ /  _ \ /     \|  \__  \  /  ___/
+#  |        \  \__(  <_> )   |  (  <_> )  Y Y  \  |/ __ \_\___ \
+# /_______  /\___  >____/|___|  /\____/|__|_|  /__(____  /____  >
+#         \/     \/           \/             \/        \/     \/
+#
+# premiumsetups.com | Todos os direitos reservados
+# Plugin desenvolvido por Bletzzi (ID Discord: 498635167259164673)
+# Aceito encomendas, me chame no discord!
+#
+
+
+# Configuração do banco de dados
+database:
+  # Endereço do servidor + Porta (A porta padrão do Mysql é 3306)
+  host: "localhost:3306"
+  # Nome do banco de dados
+  database: ""
+  # Nome de usuário
+  user: ""
+  # Senha
+  password: ""
+
+# Delay salvamento automático (Em minutos)
+autoSaveTaskDelay: 5
+
+# Mensagens do plugin
+messages:
+  noPermission: "&cVocê não possui permissão para usar esse comando."
+  offlinePlayer: "&cEsse jogador está offline ou não existe."
+  balance: "&aVocê possui {amount} {currency_name}."
+  balanceOthers: "&aO jogador {player} possui {amount} {currency_name}."
+  invalidAmount: "&cInsira uma quantia válida!"
+  successSetBalance: "&aVocê definiu o saldo de {player} para {amount} {currency_name}."
+  successAddBalance: "&aVocê adicionou {amount} {currency_name} para {player}."
+  successRemoveBalance: "&aVocê removeu {amount} {currency_name} de {player}."
+  successSendBalance: "&aVocê enviou {amount} {currency_name} para {player}."
+  insufficientAmount: "&cVocê não possui {amount} {currency_name}."
+  receivedAmount: "&aO jogador {player} enviou {amount} {currency_name} para você."
+  yourselfSending: "&cVocê não pode enviar {currency_name} para si mesmo."
+  successReload: "&aA configuração foi recarregada."
+  currencyHelp:
+    - ""
+    - " &aComandos da economia"
+    - ""
+    - " &a/{currency_command} &7&l- &fExibe o seu saldo"
+    - " &a/{currency_command} <jogador> &7&l- &fExibe o saldo de outro jogador"
+    - " &a/{currency_command} enviar <jogador> &7&l- &fEnvia {currency_name} para outro jogador"
+    - ""
+  currencyAdminHelp:
+    - ""
+    - " &aComandos da economia"
+    - ""
+    - " &a/{currency_command} &7&l- &fExibe o seu saldo"
+    - " &a/{currency_command} <jogador> &7&l- &fExibe o saldo de outro jogador"
+    - " &a/{currency_command} enviar <jogador> &7&l- &fEnvia {currency_name} para outro jogador"
+    - " &a/{currency_command} add <jogador> &7&l- &fAdiciona {currency_name} para outro jogador"
+    - " &a/{currency_command} remove <jogador> &7&l- &fRemove {currency_name} de outro jogador"
+    - " &a/{currency_command} set <jogador> &7&l- &fDefine o {currency_name} de outro jogador"
+    - ""
+
+# Formatação da economia
+formats:
+  - ''
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
+  - 'UN'
+  - 'DD'
+  - 'TR'
+  - 'QT'
+  - 'QN'
+  - 'SD'
+  - 'SPD'
+  - 'OD'
+  - 'ND'
+  - 'VG'
+  - 'UVG'
+  - 'DVG'
+  - 'TVG'
+  - 'QTV'

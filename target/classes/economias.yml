@@ -1,0 +1,26 @@
+#
+# Configuração das economias, crie quantas quiser, basta copiar e editar nesse arquivo
+#
+
+currencies:
+  cash:
+    displayName: "cash" # Nome da economia
+    commands: [ "cash", "pontos", "points" ] # Coloque os comandos sem as barras (/)
+    defaultAmount: 0 # Quantia inicial da economia
+    subCommands: # Coloque os comandos sem as barras (/)
+      add: [ "add", "adicionar" ]
+      remove: [ "remove", "remover" ]
+      set: [ "set", "definir", "setar" ]
+      send: [ "send", "enviar", "pay", "pagar" ]
+    usage:
+      add: "&a/cash add <jogador> <quantia>"
+      remove: "&a/cash remove <jogador> <quantia>"
+      set: "&a/cash set <jogador> <quantia>"
+      send: "&a/cash enviar <jogador> <quantia>"
+    permissions:
+      balance: "premiumeconomias.cash.balance"
+      others: "premiumeconomias.cash.others"
+      add: "premiumeconomias.cash.add"
+      remove: "premiumeconomias.cash.remove"
+      set: "premiumeconomias.cash.set"
+      send: "premiumeconomias.cash.send"

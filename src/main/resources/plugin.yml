@@ -1,0 +1,7 @@
+name: PremiumEconomias
+version: '${project.version}'
+main: com.premiumsetups.premiumeconomias.PremiumEconomias
+authors: [ Bletzzi ]
+description: Plugin de economias da PremiumSetups
+website: premiumsetups.com
+softdepend: [PlaceHolderAPI]
